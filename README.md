@@ -36,9 +36,9 @@ Screenshots of the application's interface.
 1. **Clone the Repository:**
    git clone https://github.com/vasanthsai14/TO-DO-LIST.git
 
-## How to Use
+# How to Use
 
-# React + Vite
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
