@@ -1,4 +1,4 @@
-# TO-DO-LIST
+# To-Do-List
 
 TO-DO-LIST is a modern task management application developed using React and Vite. This lightweight yet powerful tool allows users to efficiently organize and track their tasks.
 
