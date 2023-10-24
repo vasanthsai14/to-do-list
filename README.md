@@ -6,7 +6,7 @@ TO-DO-LIST is a modern task management application developed using React and Vit
 
 Screenshots of the application's interface.
 
-![TO-DO-LIST Screenshot](images/todo-list.png)
+![TO-DO-LIST Screenshot](todo-list.png)
 
 ## Features
 
