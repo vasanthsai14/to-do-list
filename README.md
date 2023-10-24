@@ -1,4 +1,4 @@
-# To-Do-List
+# to-do-list
 
 TO-DO-LIST is a modern task management application developed using React and Vite. This lightweight yet powerful tool allows users to efficiently organize and track their tasks.
 
@@ -34,7 +34,7 @@ Screenshots of the application's interface.
 ## How to Use
 
 1. **Clone the Repository:**
-   git clone https://github.com/vasanthsai14/TO-DO-LIST.git
+   git clone https://github.com/vasanthsai14/to-do-list.git
 
 # How to Use
 
@@ -54,7 +54,7 @@ Download Node.js Installer:
 Navigate to the project directory using the command line:
 
 ```terminal:
-cd TO-DO-LIST
+cd to-do-list
 npm install
 npm run dev
 
