@@ -29,7 +29,11 @@ Screenshots of the application's interface.
    - The codebase follows React best practices.
    - Effective state management using React hooks.
    - Modular components enhance code readability and maintainability.
-
+     
+6. **Progress bar and Priority:**
+   - Users can view their progress on a horizontal bar
+   - Users can set priority for each Todo item (high , medium and low)
+   
 ## How to Use
 
 1. **Clone the Repository:**
