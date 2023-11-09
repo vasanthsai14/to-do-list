@@ -1,0 +1,212 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  color: hsl(200, 100%, 90%);
+  max-width: 555px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.main-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: hsl(200, 100%, 100%);
+}
+
+.sub-heading {
+  color: hsl(200, 100%, 93%);
+  margin-bottom: 1rem;
+}
+.new-item-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-row {
+  margin-top: .55rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.btn {
+  background: hsl(200, 100%, 50%, 0.1);
+  border: 1px solid hsl(200, 100%, 50%);
+  color: hsl(200, 100%, 50%);
+  padding: 0.25em 0.5em;
+  border-radius: 0.25em;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  background: hsl(200, 100%, 50%, 0.2);
+}
+
+.btn.btn-danger {
+  background: hsl(0, 100%, 40%, 0.1);
+  border: 1px solid hsl(0, 100%, 40%);
+  color: hsl(0, 100%, 40%);
+}
+
+.btn.btn-danger:hover,
+.btn.btn-danger:focus-visible {
+  background: hsl(0, 100%, 40%, 0.2);
+}
+
+.new-item-form input {
+  outline: none;
+  border: 1px solid hsl(200, 100%, 40%);
+  background: hsl(200, 100%, 30%);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  color: hsl(200, 100%, 97%);
+}
+
+.new-item-form input:focus {
+  border: 1px solid hsl(200, 100%, 70%);
+}
+
+.header {
+  color: hsl(200, 100%, 100%);
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight:777;
+}
+/* Add these styles for the progress bar */
+.progress-bar {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  color: hsl(200, 100%, 90%);
+}
+
+.progress {
+  width: 300px; /* Adjust the width as needed */
+  height: 20px;
+  background: #ccc;
+  background: hsl(200, 10%, 40%);
+  margin: 0 1rem;
+  position: relative;
+  border-radius: 6px;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 6px;
+  background:  hsl(200, 100%, 50%);
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  margin-left: 1rem;
+  list-style: none;
+}
+
+.list li:has(input:checked) label {
+  color: hsl(200, 20%, 40%);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.list li {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.list li label {
+  display: flex;
+  gap: 0.3rem;
+  cursor: pointer;
+  align-items: center;
+  position: "relative";
+}
+
+.list li:has(input:focus-visible) label {
+  outline: 1px solid hsl(200, 100%, 50%);
+}
+
+.list li input {
+  outline: none;
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  pointer-events: none;
+  position: absolute;
+  left: -9999px;
+}
+
+.list li label::before {
+  content: "";
+  display: block;
+  width: 0.9rem;
+  height: 0.9rem;
+  background: hsl(200, 100%, 90%);
+  border-radius: 0.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+ .title{
+  margin-left: 0.7rem;
+}
+
+.list li label:hover::before {
+  background: hsl(200, 100%, 80%);
+}
+
+.list li:has(input:checked) label::before {
+  content: "✔";
+  background: hsl(200, 100%, 40%);
+  color: hsl(200, 100%, 90%);
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.list li:has(input:checked) label:hover::before {
+  background: hsl(200, 100%, 30%);
+}
+.header svg{
+  margin-top: 0rem;
+  max-height: 1.5rem;
+  margin-left: 0.5rem;
+}
+.priority-section {
+  display: flex;
+  gap: 0.5rem;
+}
+.priority-section select {
+  border: 1px solid hsl(200, 100%, 40%);
+  background: hsl(200, 100%, 37%);
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  color: hsl(200, 200%, 200%);
+  width: 4.8rem;
+  margin-left: 1rem;
+}
+hr {
+  border: 0;
+  border-top: 1px solid hsl(200, 10%, 70%);
+  margin-top: 1rem;
+}
+.delete{
+  height: 1rem;
+  width: 1rem;
+}
